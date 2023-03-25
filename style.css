@@ -249,12 +249,6 @@ body {
   width: 100%;
 }
 
-.middle_section div.link a:hover{
-  background-color: #84a7ff;
-  color: white;
-  font-weight: bold;
-}
-
 section.about div.link a {
   text-decoration: none;
   color: #396df2;
@@ -265,10 +259,16 @@ section.about div.link a {
   width: 100%;
 }
 
-section.about div.link a:hover{
+.middle_section div.link a:hover {
+  background-color: #84a7ff;
+  color: white;
+  font-weight: bold;
+}
+
+section.about div.link a:hover {
   background-color: #84a7ff;
   color: black;
-  font-weight: bold;   
+  font-weight: bold;
 }
 
 .middle_section div.web div.right ul a {
