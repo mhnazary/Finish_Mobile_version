@@ -8,7 +8,6 @@
 body {
   width: 375px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 /* start header part */
@@ -162,6 +161,7 @@ body {
   height: 552px;
   width: 343px;
   margin: 40px 16px 0 16px;
+  display: grid;
 }
 
 .middle_section div.pic {
@@ -322,9 +322,10 @@ section.about {
   margin: auto;
 }
 
-section.about div.am h1 {
+section.about div.am h2 {
   font-weight: 700;
   font-size: 40px;
+  color: #172b4d;
 }
 
 section.about div.disc {
@@ -386,6 +387,10 @@ div.skill {
   font-size: 20px;
   font-weight: 100;
   margin-bottom: 20px;
+}
+
+section.about div.select ul.lang li.lang div.skill {
+  padding: 15px 0 20px 0;
 }
 
 section.about div.select ul.lang li.lang h2 {
