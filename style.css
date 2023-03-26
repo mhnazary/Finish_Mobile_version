@@ -167,7 +167,7 @@ body {
 .middle_section div.pic {
   width: 295px;
   height: 220px;
-  margin: 16px 20px;  
+  margin: 16px 20px;
 }
 
 .middle_section div.name {
@@ -176,7 +176,7 @@ body {
   margin: 5px 20px;
 }
 
-.middle_section div.name h1{
+.middle_section div.name h1 {
   font-weight: 700;
   font-size: 32px;
   columns: #172b4d;
