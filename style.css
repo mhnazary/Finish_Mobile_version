@@ -167,15 +167,20 @@ body {
 .middle_section div.pic {
   width: 295px;
   height: 220px;
-  margin: 16px 20px;
-  background-image: url(Snapshoot\ Portfolio.png);
-  background-size: cover;
+  margin: 16px 20px;  
 }
 
 .middle_section div.name {
   width: 295px;
   height: 40px;
   margin: 5px 20px;
+}
+
+.middle_section div.name h1{
+  font-weight: 700;
+  font-size: 32px;
+  columns: #172b4d;
+  line-height: 44px;
 }
 
 .middle_section div.descript {
