@@ -165,10 +165,10 @@ body {
 /* Start middl section  */
 
 .middle_section {
+  display: grid;
   height: 552px;
   width: 343px;
   margin: 100px 16px 0 16px;
-  display: grid;
   border-radius: 15px;
   background-color: white;
   padding-bottom: 20px;
