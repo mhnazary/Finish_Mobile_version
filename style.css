@@ -5,9 +5,14 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: lightgray;
+}
+
 body {
   width: 375px;
   margin: 0 auto;
+  background-color: rgb(236, 234, 234);
 }
 
 /* start header part */
@@ -17,6 +22,7 @@ body {
   display: flex;
   background-image: url(header-background-mobile.png);
   background-size: cover;
+  background-color: white;
 }
 
 .header .Left_side {
@@ -68,9 +74,10 @@ body {
 .container {
   width: 375px;
   height: 611px;
-  margin-top: 30px;
   background-image: url(header-shapes\ mobile.png);
   background-size: cover;
+  border-bottom-left-radius: 60px;
+  background-color: white;
 }
 
 .container .me {
@@ -160,8 +167,11 @@ body {
 .middle_section {
   height: 552px;
   width: 343px;
-  margin: 40px 16px 0 16px;
+  margin: 100px 16px 0 16px;
   display: grid;
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 20px;
 }
 
 .middle_section div.pic {
@@ -322,15 +332,19 @@ section.about div.link a:hover {
 /* Start About Yourself Section  */
 
 section.about {
-  height: 682px;
-  width: 92%;
-  margin: auto;
+  height: 850px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  margin-top: 100px;
+  border-top-right-radius: 60px;
 }
 
 section.about div.am h2 {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
+  margin-top: 60px;
 }
 
 section.about div.disc {
@@ -394,8 +408,16 @@ div.skill {
   margin-bottom: 20px;
 }
 
+section.about div.select ul.lang li.lang div.framework {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 section.about div.select ul.lang li.lang div.skill {
   padding: 15px 0 20px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 section.about div.select ul.lang li.lang h2 {
