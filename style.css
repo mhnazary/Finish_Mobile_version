@@ -201,7 +201,6 @@ body {
 
 .middle_section div.descript {
   width: 295px;
-  display: flex;
   height: 30px;
   margin: 5px 20px;
 }
@@ -219,7 +218,6 @@ body {
 
 .middle_section div.descript div.year ul.list {
   justify-content: start;
-  display: flex;
 }
 
 .middle_section div.descript div.year ul.list li {
@@ -282,6 +280,8 @@ section.about div.link a {
   background-color: #84a7ff;
   color: white;
   font-weight: bold;
+  height: 100%;
+  width: 100%;
 }
 
 section.about div.link a:hover {
