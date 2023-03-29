@@ -15,11 +15,14 @@ body {
   background-color: rgb(236, 234, 234);
 }
 
+.flex {
+  display: flex;
+}
+
 /* start header part */
 
 .header {
   height: 50px;
-  display: flex;
   background-image: url(header-background-mobile.png);
   background-size: cover;
   background-color: white;
@@ -59,7 +62,6 @@ body {
 }
 
 .header .Right_side div.bar {
-  display: flex;
   flex-direction: column;
   align-items: end;
   padding: 12px;
@@ -164,8 +166,11 @@ body {
 
 /* Start middl section  */
 
-.middle_section {
+.work_section {
   display: grid;
+}
+
+.middle_section {
   height: 552px;
   width: 343px;
   margin: 100px 16px 0 16px;
@@ -177,7 +182,8 @@ body {
 .middle_section div.pic {
   width: 295px;
   height: 220px;
-  margin: 16px 20px;
+  margin: 20px 23px;
+  gap: 20px;
 }
 
 .middle_section div.name {
@@ -195,9 +201,9 @@ body {
 
 .middle_section div.descript {
   width: 295px;
+  display: flex;
   height: 30px;
   margin: 5px 20px;
-  display: flex;
 }
 
 .middle_section div.descript div.camp {
@@ -212,8 +218,8 @@ body {
 }
 
 .middle_section div.descript div.year ul.list {
-  display: flex;
   justify-content: start;
+  display: flex;
 }
 
 .middle_section div.descript div.year ul.list li {
@@ -238,19 +244,17 @@ body {
   width: 295px;
   height: 24px;
   margin: 0 20px;
-  display: flex;
 }
 
 .middle_section div.web div.right {
   width: 80%;
-  display: flex;
   justify-content: center;
 }
 
 .middle_section div.web div.right ul {
   list-style-type: none;
-  display: flex;
   justify-content: space-around;
+  display: flex;
   width: 100%;
 }
 
@@ -320,7 +324,6 @@ section.about div.link a:hover {
 
   /* comment */
   border: 1px solid #396df2;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 25px;
@@ -374,7 +377,6 @@ section.about div.link {
 
   /* comment */
   border: 1px solid #396df2;
-  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
